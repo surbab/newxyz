@@ -1,0 +1,18 @@
+<div class="trials form">
+<?php echo $this->Form->create('Trial'); ?>
+	<fieldset>
+		<legend><?php echo __('Add Trial'); ?></legend>
+	<?php
+		echo $this->Form->input('name1');
+		echo $this->Form->input('name2');
+	?>
+	</fieldset>
+<?php echo $this->Form->end(__('Submit')); ?>
+</div>
+<div class="actions">
+	<h3><?php echo __('Actions'); ?></h3>
+	<ul>
+
+		<li><?php echo $this->Html->link(__('List Trials'), array('action' => 'index')); ?></li>
+	</ul>
+</div>
